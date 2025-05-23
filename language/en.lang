@@ -1,0 +1,133 @@
+# English language file for Luna Bot
+
+# Command Handler Messages
+handler.noCommandProvided=❌ Prefix detected but no command provided. Please type a valid command after the prefix. Example: {0}help
+handler.unknownCommand=❌ Unknown command {0}. Type {1}help to see a list of available commands.
+handler.userBanned=❌ You are banned from using bot commands.
+handler.adminOnlyMode=❌ The command {0} is currently unavailable or restricted. Contact an admin or type {1}help for more info.
+handler.permissionDenied=❌ You don't have permission to use this command.\nRequired level: {0}
+handler.cooldownActive=⏳ Please wait {0} seconds before using this command again.
+
+# Group Event Messages
+group.welcomeMessage=Welcome to the group!
+group.leaveMessage=Goodbye, we'll miss you!
+
+# Call Messages
+call.rejectMessage=Sorry, I'm a bot and cannot answer calls. Please send a message instead.
+
+# System Messages
+system.commandExecuted=Command '{0}{1}' executed by {2} in {3}
+system.chatPatternMatched=Chat pattern matched: {0}
+system.chatMessageMatched=Chat message matched: "{0}"
+system.processingReaction=Processing reaction handler for message {0} with reaction {1}
+system.processingAnyReaction=Processing any-reaction handler for message {0}
+system.processingGeneralReaction=Processing general reaction handler for {0}
+system.processingReply=Processing reply handler for message {0}
+system.processingEvent=Processing event: {0}
+system.processingGroupEvent=Processing group {0} event in {1}
+system.sentWelcomeMessage=Sent welcome message in {0}
+system.sentLeaveMessage=Sent leave message in {0}
+system.processingCallEvent=Processing {0} call event from {1}
+system.autoRejectedCall=Auto-rejected {0} call from {1}
+system.sentCallRejectionMessage=Sent call rejection message to {0}
+system.processingContactEvent=Processing contact {0} event for {1}
+system.processingGroupInvite=Processing group invite event from {0}
+system.autoAcceptedGroupInvite=Auto-accepted group invite from {0}
+
+# Error Messages
+error.handleCommand=Error in handleCommand: {0}
+error.handleChat=Error in handleChat: {0}
+error.handleReaction=Error in handleReaction: {0}
+error.handleReply=Error in handleReply: {0}
+error.processEvents=Error in processEvents: {0}
+error.handleGroupEvent=Error in handleGroupEvent: {0}
+error.sendWelcomeMessage=Failed to send welcome message: {0}
+error.sendLeaveMessage=Failed to send leave message: {0}
+error.handleCallEvent=Error in handleCallEvent: {0}
+error.rejectCall=Failed to reject call: {0}
+error.handleContactEvent=Error in handleContactEvent: {0}
+error.handleInviteEvent=Error in handleInviteEvent: {0}
+error.acceptGroupInvite=Failed to accept group invite: {0}
+
+# Log Messages
+log.permissionDenied=Permission denied for {0} command. Required: {1}, User: {2}
+log.commandBlocked=Command blocked (Admin Only Mode) from: {0}
+log.bannedUserAttempt=Command attempt by banned user: {0}
+# EventHandler Messages
+eventHandler.unknownGroup=Unknown Group
+eventHandler.unknownChannel=Unknown Channel
+eventHandler.unknown=Unknown
+eventHandler.videoCall=Video Call
+eventHandler.voiceCall=Voice Call
+eventHandler.video=Video
+eventHandler.voice=Voice
+
+# Luna System Messages
+luna.system.messageBlockedAdminOnly=❌ Message blocked (Admin Only Mode)
+luna.system.messageBlockedWhitelist=❌ Message blocked (Whitelist Mode)
+luna.system.userLeft=\n🚪 User left: {0} from group {1} ({2})
+luna.system.userAdded=\n👤 User added: {0} to group {1} ({2})
+luna.system.userPromoted=\n⭐ User promoted: {0} in group {1} ({2})
+luna.system.userDemoted=\n⬇️ User demoted: {0} in group {1} ({2})
+luna.system.missedCallNotification=\n📞 Missed Call Notification
+luna.system.caller=📞 Caller: {0}
+luna.system.callType=📌 Call Type: {0}
+luna.system.missedCallAt=❌ Missed Call at {0}
+luna.system.incomingCall=\n📞 Incoming {0} Call
+luna.system.incomingCallAt=📲 Incoming Call at {0}
+luna.system.contactJoinedWhatsApp=\n✅ Contact Joined WhatsApp
+luna.system.newContact=👤 New Contact: {0} ({1})
+luna.system.groupInvitationReceived=\n🔔 Group Invitation Received
+luna.system.invitationToJoin=📩 Invitation to Join: {0}
+luna.system.invitedBy=👤 Invited by: {0}
+luna.system.retryingGroupMetadata=Retrying group metadata fetch. Attempts remaining: {0}
+
+# EventHandler Error Messages
+eventHandler.error.messageListener=❌ Error in messageListener: {0}
+eventHandler.error.fetchGroupMetadata=Failed to fetch group metadata: {0}
+eventHandler.error.handleMessage=Error handling message: {0}
+eventHandler.error.groupUpdateListener=❌ Error in group update listener: {0}
+eventHandler.error.callListener=❌ Error in call listener: {0}
+eventHandler.error.contactsUpdateListener=❌ Error in contacts update listener: {0}
+eventHandler.error.groupInvitationListener=❌ Error in group invitation listener: {0}
+eventHandler.error.failedGroupMetadataRetries=Failed to fetch group metadata after {0} attempts: {1}
+# Bot Startup Messages
+
+
+bot.stopping=Bot is shutting down...
+bot.restartScheduled=Bot restart scheduled in {0} minutes.
+bot.loadingCommandsEvents=Loading commands and events...
+bot.startingUptimeServer=Starting uptime server...
+
+# Connection Messages
+
+connection.disconnected=Disconnected from WhatsApp.
+connection.reconnecting=Attempting to reconnect...
+
+# Command Feedback
+command.executed=Command '{0}' executed successfully.
+command.failed=Failed to execute command '{0}': {1}
+command.notFound=Command '{0}' not found.
+command.permissionDenied=You do not have permission to run '{0}' command.
+
+# User Notifications
+user.welcome=Welcome, {0}! Glad to have you here.
+user.goodbye=Goodbye, {0}! Hope to see you again.
+user.banned=You have been banned from using this bot.
+
+# Error Messages
+error.unexpected=An unexpected error occurred: {0}
+error.invalidInput=Invalid input provided: {0}
+error.missingParameter=Missing parameter: {0}
+
+# System Logs
+log.botRestart=Bot is restarting now.
+log.connectionLost=Lost connection to WhatsApp server.
+log.connectionRestored=Connection to WhatsApp restored.
+log.commandBlocked=Blocked command '{0}' from user {1}.
+
+# Miscellaneous
+misc.unknown=Unknown
+misc.yes=Yes
+misc.no=No
+misc.confirm=Please confirm your action.
