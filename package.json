@@ -15,7 +15,6 @@
     "@whiskeysockets/baileys": "^6.7.17",
     "awesome-phonenumber": "^2.64.0",
     "axios": "^1.9.0",
-    "bytenode": "^1.5.7",
     "chalk": "^4.1.2",
     "distube": "^5.0.6",
     "dlp": "^0.0.1",
@@ -53,5 +52,9 @@
   "keywords": [],
   "bugs": {
     "url": "https://github.com/Mr-Perfect-DevX/Luna-V1/issues"
+  },
+  "devDependencies": {
+    "bytenode": "^1.5.7",
+    "javascript-obfuscator": "^4.1.1"
   }
 }
